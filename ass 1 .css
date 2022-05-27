@@ -1,0 +1,394 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+/*topbar start */
+.topbar{
+    background-color: rgb(76, 87, 112);
+    color: rgb(247, 247, 247);
+    
+}
+.first_part1{
+    width: 40%;
+    float: left;
+    margin-top: 10px;
+}
+.second_part2{
+    float: right;
+    margin-top: 10px;
+   
+}
+.fa{
+    margin-right: 8px;
+}
+
+.l_button{
+    background-color: rgb(196, 28, 28);
+    margin-left:  30px;
+    color: honeydew;
+    height: 35px;
+    width: 100px; 
+    border: none;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.l_button:hover{
+    transform: scale(1.1);
+}
+/*topbar end */
+
+/*header menu start*/
+
+.header_menu{ 
+    padding: 15px 0 ;
+   
+}
+.sticky{
+    background: rgba(243, 239, 236, 0.527);
+    position:-webkit-sticky;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.logo {
+    width: 20%;
+    float: left;
+}
+
+.logo img {
+    width: 100%;
+}
+.menu{
+    width: 78%;
+    float: right;
+    margin-top: 10px;
+    
+}
+
+.menu ul {
+    float: right;
+    
+}
+.menu ul li{
+   list-style: none;
+   float: left;    
+}
+.menu ul li a {
+    font-family:sans-serif ;
+    font-size: 16px ;
+    font-weight: 700;
+    color: #535069;
+    text-decoration: none;
+    padding: 0px 15px;
+    display: inline-block;
+    transition: .3s; 
+}
+
+.menu ul li :last-child a{
+    padding-right: 0; 
+}
+.menu ul li a:hover{
+    color: rgb(231, 43, 74) ;
+}
+/*header menu end*/
+
+/*section start */
+
+.banner {
+    background: linear-gradient(rgba(255, 0, 0, 0.158),rgba(0, 0, 255, 0.178)), url('image/slide.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.b_containt {
+    margin-top: 150px;
+    margin-bottom: 100px;
+    width: 50%;
+    
+}
+.b_containt h1 {
+    font-family: sans-serif;
+    font-size:57px ;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 2px;
+    margin-top: 0;
+    margin-bottom: 25px;
+    
+}
+.b_containt p{
+    font-family: sans-serif;
+    font-size:18px ;
+    font-weight: 400;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.b_containt button{
+    width: 260px;
+    height: 50px;
+    background-color: rgb(196, 28, 28);
+    font-family: sans-serif;
+    font-size:15px ;
+    color: white;
+    border: none;
+    margin-top: 30px ;
+    transition: 0.4s;
+}
+.b_containt button:hover{
+    transform: scale(1.1);
+}
+/*section end  */
+
+
+/*how it works  start */
+
+.how_it_work{
+    margin-left: 300px;
+}
+.first_part{
+    width: 65%;
+    margin: 0 auto;
+    font-family: sans-serif;
+    text-align: center;
+    margin-left: 100px;   
+}
+.first_part h1{
+    color: black; 
+    text-transform: uppercase;
+}
+.first_part p{
+    font-size: 14px;
+    line-height: 23px;
+    margin: 0;
+}
+.second_part{
+    float: right;
+    margin-top: 10px;
+    margin-right: 100px;
+    height: 179px;
+   /* border: 1px solid #bbb7bf;*/ 
+    width: 201px;
+    transition: 0.5s;
+}
+.second_part:hover{
+    transform: scale(1.1);
+}
+.single_item{
+    width: 100%;
+    text-align: center;
+    padding-top: 16px;
+
+}
+
+.single_item p{
+    font-size: 14px;
+    line-height: 23px;
+    font-family: sans-serif;  
+    text-transform: capitalize;
+    margin-top: 10px; 
+}
+/*how it works  end */
+
+/*video part start */
+.process{
+    background-color: rgb(240, 240, 240);
+
+}
+.m_containt{
+   width: 100%;
+}
+.v_part{
+    margin-top: 100px;
+    width: 50%;
+    float: left;
+}
+.v_part h1{
+    
+    font-family: sans-serif;
+    font-size:30px ;
+    font-weight: 700;
+    color: rgb(14, 13, 13);
+    letter-spacing: 2px;
+    margin-bottom: 18px;
+
+}
+.v_part p{
+    font-family: sans-serif;
+    font: size 14px ;
+    font-weight: 400;
+    color: rgb(14, 13, 13);
+    margin-top: 0;
+    margin-bottom: 33px;
+}
+
+.buton1{
+    width: 130px;
+    height: 38px;
+    margin-bottom: 97px;
+    background-color: rgb(196, 28, 28);
+    color: honeydew;
+    border: none;
+}
+.video{ 
+    width: 32%;
+    height: 200px;
+    margin-left: 100px;
+    margin-top: 74px;   
+}
+/*video part end */
+
+/*FEATURES PART START */
+
+.features{
+    margin-left: 300px;
+}
+.first_part{
+    width: 65%;
+    margin: 0 auto;
+    font-family: sans-serif;
+    text-align: center;
+    margin-left: 100px;   
+}
+.first_part h1{
+    color: black; 
+    text-transform: uppercase;
+}
+.first_part p{
+    font-size: 14px;
+    line-height: 23px;
+    margin: 0;
+}
+.second_part0{
+    float: right;
+    margin-top: 10px;
+    margin-right: 40px;
+    height: 250px;
+    border: 1px solid #bbb7bf;
+    width: 290px;
+    transition: 0.6s;
+}
+.second_part0:hover{
+    background-color: aquamarine;
+    transform: scale(1.1);
+}
+
+.single_item0{
+    width: 100%;
+    text-align: center;
+    padding-top: 17px;
+
+}
+.single_item0 img{
+    width: 90px;
+}
+.single_item0 h5{
+    margin-top: 15px;
+}
+.single_item0 p{
+    font-size: 14px;
+    line-height: 23px;
+    font-family: sans-serif;  
+    text-transform: capitalize; 
+}
+/*FEATURES PART END */
+
+.buton2{
+    width: 150px;
+    height: 34px;
+    color: rgb(196, 28, 28);
+    border: none;
+    float: right;
+    margin-right: 449px;
+}
+
+/*Footer section start*/
+
+.footer{
+    background-color: rgb(24, 23, 23);
+    color: rgb(119, 117, 117);
+
+}
+.contact{
+    float: left;
+    margin-top: 80px;
+    margin-right: 40px;
+    margin-bottom: 30px;
+    height: 250px;
+    width: 290px;
+}
+
+.cont2{
+    width: 100%;
+    padding-top: 17px;
+}
+.cont2 p:hover {
+    color: red;
+}
+.cont2 a:hover {
+    color: red;
+}
+.cont2 li:hover {
+    color: red;
+}
+.fa-facebook:hover {
+    color: crimson;
+}
+.fa-twitter:hover {
+    color: crimson;
+}
+.fa-instagram:hover {
+    color: crimson;
+}
+.fa-youtube-play:hover {
+    color: crimson;
+}
+.icon1{
+    margin-top: 30px;
+    color: rgb(177, 174, 171);
+}
+
+.sub-form{
+    width: 180px;
+    height: 37px;
+    background-color: rgb(24, 23, 23);
+    
+    border-color: rgb(177, 174, 171);
+    
+   
+}
+.sub-button{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(196, 28, 28);
+    font-family: sans-serif;
+    font-size:15px ;
+    color: white;
+    border: none;
+    border-radius: 10%;
+    transition: 0.4s;
+}
+
+.sub-button:hover{
+    transform: scale(1.1);
+}
+
+/*Footer section end*/
+
+.last{
+    background-color: rgb(86, 86, 95);
+   
+}
+.last_p{
+    text-align: center;
+    padding: 20px;
+    color: white;
+    
+}
